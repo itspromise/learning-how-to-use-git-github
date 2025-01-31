@@ -1,13 +1,43 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="testing.css" rel="stylesheet" type="text/css">
-    <title>Document</title>
-</head>
-<body>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="testing.css" rel="stylesheet" type="text/css">
+        <title>Document</title>
+    </head>
+    <body>
+        <h1 id="LearningJavaScipt"> This is a JavaScipt Lesson</h1>
+
+
+        <fieldset>
+            <legend><h2>JavaScript Function</h2></legend>
+                <p>This is an example that calls a function which performs a calculation and return the result.</p>
+                <p>150 X 250 will egual:</p>
+
+                <button type="button"> Click Me!</button>
+
+                <p id="learning"></p>
+        </fieldset>
+
+        <span id="display"> </span>
+
+
+        <script src="./testing.js">
+            function multiplication (a,b){
+                return a*b
+            }
+
+            document.getElementById("learning").innerHTML=(150*250);
+        </script>
+
+
+
+
+
     
-    <script src="./testing.js"></script>
-</body>
+        
+    </body>
 </html>
+
+<!-- <script src="./testing.js"></script> -->
